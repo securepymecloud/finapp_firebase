@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ProyectoFinApp</string>
     <string name="login">Iniciar Sesión</string>
-    <string name="register">Registrarme</string>
+    <string name="loginGoogle">Iniciar Sesión con Google</string>
+    <string name="register">¿No tienes cuenta? Regístrate</string>
     <string name="mail">Correo electrónico</string>
+    <string name="password">Contraseña</string>
 </resources>
