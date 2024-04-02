@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/design_default_color_surface">
+
+        <ImageView
+            android:id="@+id/contactImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/user"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"/>
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:text="Rating"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/contactImage"
+            android:layout_toStartOf="@id/rating"
+            android:layout_alignTop="@id/contactImage"
+            android:text="Jose Gabriel Gomez"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_toEndOf="@id/contactImage"
+            android:layout_toStartOf="@id/rating"
+            android:text="Contactar"
+            android:layout_marginTop="10dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical"/>
+
+
+        <TextView
+            android:id="@+id/numberRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating"
+            android:layout_toEndOf="@id/description"
+            android:text="5.0"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical"/>
+
+    </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

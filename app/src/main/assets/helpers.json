@@ -1,0 +1,64 @@
+{
+  "Helpers": [
+    {
+      "name": "Ana Martínez",
+      "description": "Especialista en finanzas personales",
+      "rating": "Rating",
+      "numberRating": "4.9"
+    },
+    {
+      "name": "Carlos López",
+      "description": "Asesor de inversiones",
+      "rating": "Rating",
+      "numberRating": "4.7"
+    },
+    {
+      "name": "Lucía Gómez",
+      "description": "Consultora en ahorro",
+      "rating": "Rating",
+      "numberRating": "4.8"
+    },
+    {
+      "name": "Miguel Torres",
+      "description": "Experto en criptomonedas",
+      "rating": "Rating",
+      "numberRating": "4.6"
+    },
+    {
+      "name": "Elena Nito",
+      "description": "Especialista en impuestos",
+      "rating": "Rating",
+      "numberRating": "4.5"
+    },
+    {
+      "name": "David Mora",
+      "description": "Consultor financiero corporativo",
+      "rating": "Rating",
+      "numberRating": "4.4"
+    },
+    {
+      "name": "Sofía Carrasco",
+      "description": "Asesora en planificación financiera",
+      "rating": "Rating",
+      "numberRating": "4.7"
+    },
+    {
+      "name": "Juan Valdez",
+      "description": "Experto en inversiones internacionales",
+      "rating": "Rating",
+      "numberRating": "4.8"
+    },
+    {
+      "name": "Laura Sanz",
+      "description": "Consultora en ahorro e inversiones",
+      "rating": "Rating",
+      "numberRating": "4.9"
+    },
+    {
+      "name": "Oscar Ruiz",
+      "description": "Especialista en mercados financieros",
+      "rating": "Rating",
+      "numberRating": "4.3"
+    }
+  ]
+}

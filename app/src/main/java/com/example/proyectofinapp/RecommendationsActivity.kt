@@ -30,7 +30,8 @@ class RecommendationsActivity : AppCompatActivity() {
                     true
                 }
                 R.id.search -> {
-                    // Handle notifications action
+                    val intent = Intent(this, FinanceAssistanceActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.user -> {

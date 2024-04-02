@@ -15,6 +15,9 @@
         android:theme="@style/Theme.ProyectoFinApp"
         tools:targetApi="31">
         <activity
+            android:name=".FinanceAssistanceActivity"
+            android:exported="false" />
+        <activity
             android:name=".RecommendationsActivity"
             android:exported="false" />
         <activity
