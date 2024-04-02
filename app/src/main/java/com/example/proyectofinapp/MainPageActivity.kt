@@ -85,7 +85,8 @@ class MainPageActivity : AppCompatActivity() {
         binding.navView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.location -> {
-                    // Handle home action
+                    val intent = Intent(this, RecommendationsActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.expense -> {
