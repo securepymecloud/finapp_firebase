@@ -48,6 +48,7 @@
         <com.google.android.material.textfield.TextInputEditText
             style="?attr/textInputFilledStyle"
             android:layout_height="wrap_content"
+            android:id="@+id/emailFieldText"
             android:layout_width="match_parent"
             android:textColor="@color/md_green_800"
             android:inputType="textEmailAddress"/>
@@ -66,6 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:boxBackgroundColor="#E1FFFFFF"
+        app:errorEnabled="true"
         android:textColorHint="@color/md_green_800"
         app:hintTextColor="@color/md_green_500"
         app:cursorColor="@color/md_green_500"
@@ -74,6 +76,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
+            android:id="@+id/passwordFieldText"
             android:textColor="@color/md_green_800"
             android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
@@ -84,6 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:id="@+id/loginButton"
+        app:errorEnabled="true"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
         android:layout_width="match_parent"

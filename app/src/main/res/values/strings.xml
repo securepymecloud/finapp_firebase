@@ -5,4 +5,9 @@
     <string name="register">¿No tienes cuenta? Regístrate</string>
     <string name="mail">Correo electrónico</string>
     <string name="password">Contraseña</string>
+    <string name="title_location">En tu zona</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dollar">Nuevo gasto</string>
+    <string name="title_search">Asesor</string>
+    <string name="title_user">Perfil</string>
 </resources>

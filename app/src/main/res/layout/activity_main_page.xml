@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenida, Damaris"
+        android:textSize="25sp"
+        android:textColor="@color/md_green_800"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardPresup"
+        app:layout_constraintTop_toBottomOf="@id/welcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/md_green_100"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tu dinero actual"
+                android:textStyle="bold"
+                android:textColor="@color/md_green_500"
+                android:textAppearance="?attr/textAppearanceHeadline5"/>
+
+            <TextView
+                android:id="@+id/tvCurrentBudget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 1'550.000"
+                android:textStyle="bold"
+                android:textColor="@color/md_green_800"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:layout_marginTop="8dp"/>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/pieChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardSaving"
+        app:layout_constraintTop_toBottomOf="@id/cardPresup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/md_green_100"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ahorro Actual"
+                android:textStyle="bold"
+                android:textColor="@color/md_green_500"
+                android:textAppearance="?attr/textAppearanceHeadline5"/>
+
+            <TextView
+                android:id="@+id/tvCurrentSaving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 350.000"
+                android:textStyle="bold"
+                android:textColor="@color/md_red_800"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:layout_marginTop="8dp"/>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/lineChart"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="2dp"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        app:menu="@menu/menu_bottom_navigation"
+        android:background="@color/md_green_500"
+        app:itemIconTint="@color/md_white_1000"
+        app:itemTextColor="@color/bottom_nav_colors"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
