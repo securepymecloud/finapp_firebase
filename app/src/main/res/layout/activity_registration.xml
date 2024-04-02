@@ -6,4 +6,154 @@
     android:layout_height="match_parent"
     tools:context=".RegistrationActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/md_green_800"
+            android:text="Vamos a registrarnos"
+            android:textSize="24sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="2dp"/>
+
+        <ImageView
+            android:id="@+id/finAppLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_finapp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:id="@+id/editTextNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="#E1FFFFFF"
+            android:textColorHint="@color/md_green_800"
+            app:hintTextColor="@color/md_green_500"
+            app:cursorColor="@color/md_green_500"
+            app:boxStrokeColor="@color/md_green_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="?attr/textInputFilledStyle"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextNameText"
+                android:layout_width="match_parent"
+                android:textColor="@color/md_green_800"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:id="@+id/editTextLastNameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="#E1FFFFFF"
+            android:textColorHint="@color/md_green_800"
+            app:hintTextColor="@color/md_green_500"
+            app:cursorColor="@color/md_green_500"
+            app:boxStrokeColor="@color/md_green_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="?attr/textInputFilledStyle"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextLastNameText"
+                android:layout_width="match_parent"
+                android:textColor="@color/md_green_800"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:id="@+id/editTextEmailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónica"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="#E1FFFFFF"
+            android:textColorHint="@color/md_green_800"
+            app:hintTextColor="@color/md_green_500"
+            app:cursorColor="@color/md_green_500"
+            app:boxStrokeColor="@color/md_green_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="?attr/textInputFilledStyle"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextEmailText"
+                android:layout_width="match_parent"
+                android:textColor="@color/md_green_800"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="?attr/textInputFilledStyle"
+            android:id="@+id/editTextPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo electrónica"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="10dp"
+            app:boxBackgroundColor="#E1FFFFFF"
+            android:textColorHint="@color/md_green_800"
+            app:hintTextColor="@color/md_green_500"
+            app:cursorColor="@color/md_green_500"
+            app:boxStrokeColor="@color/md_green_500">
+
+            <com.google.android.material.textfield.TextInputEditText
+                style="?attr/textInputFilledStyle"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextPasswordText"
+                android:layout_width="match_parent"
+                android:textColor="@color/md_green_800"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:id="@+id/buttonRegister"
+            app:errorEnabled="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/md_green_500"
+            android:textColor="@color/md_white_1000"
+            android:layout_marginTop="25dp"
+            android:text="Registrarme" />
+
+        <TextView
+            android:id="@+id/textViewRegisterWithGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ó registrarme usando una cuenta Google"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

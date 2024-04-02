@@ -25,4 +25,26 @@
         8. Aceptación de los Términos: Al utilizar FinApp, confirmas que has leído, entendido y aceptado estos términos y condiciones.
                 ]]>
     </string>
+
+    <string-array name="civil_state">
+        <item>Soltero/a</item>
+        <item>Casado/a</item>
+        <item>Divorciado/a</item>
+        <item>Viudo/a</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Femenino</item>
+        <item>Masculino</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="education">
+        <item>Primaria</item>
+        <item>Bachiderato</item>
+        <item>Pregrado</item>
+        <item>Posgrado</item>
+        <item>Doctorado</item>
+    </string-array>
+
 </resources>
