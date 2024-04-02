@@ -39,5 +39,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, TermsAndConditionsActivity::class.java)
             startActivity(intent)
         }
+
+        binding.googleLogin.setOnClickListener {
+            val intent = Intent(this, GoogleSignInActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
