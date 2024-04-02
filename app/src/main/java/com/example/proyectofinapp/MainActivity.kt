@@ -34,5 +34,10 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+
+        binding.signUp.setOnClickListener{
+            val intent = Intent(this, TermsAndConditionsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

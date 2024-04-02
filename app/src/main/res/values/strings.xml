@@ -10,4 +10,19 @@
     <string name="title_dollar">Nuevo gasto</string>
     <string name="title_search">Asesor</string>
     <string name="title_user">Perfil</string>
+    <string name="terms_and_conditions_title">Términos y Condiciones</string>
+    <string name="terms_and_conditions">
+        <![CDATA[
+
+        Bienvenido a FinApp, una aplicación dedicada a fomentar tu salud financiera mediante herramientas intuitivas y personalizadas para el manejo de tus finanzas. Al utilizar FinApp, aceptas los siguientes términos y condiciones. Por favor, léelos cuidadosamente.
+        1. Servicios Ofrecidos: FinApp proporciona funcionalidades como seguimiento de gastos, análisis financiero, recomendaciones personalizadas, y más, con el fin de ayudarte a mejorar tu salud financiera.
+        2. Recopilación de Datos: Para ofrecerte servicios personalizados, FinApp recopila información básica personal (como nombre y correo electrónico) y datos financieros (como transacciones y balances). Nos comprometemos a manejar esta información con el máximo cuidado y seguridad.
+        3. Uso de la Información: La información recopilada se utiliza para mejorar tu experiencia dentro de la aplicación, ofrecerte recomendaciones personalizadas y para el desarrollo de nuevas funcionalidades.
+        4. Compartir Información: FinApp no comparte tu información personal con terceros sin tu consentimiento explícito, salvo en casos requeridos por ley o para proteger nuestros derechos.
+        5. Seguridad: Nos tomamos muy en serio la seguridad de tus datos. Implementamos medidas técnicas y organizativas para proteger tu información contra el acceso no autorizado, la alteración, la divulgación o la destrucción.
+        6. Tus Derechos: Tienes derecho a acceder, corregir o eliminar tu información personal almacenada en FinApp en cualquier momento. Si deseas ejercer estos derechos, por favor contáctanos a través de [correo de contacto].
+        7. Modificaciones a los Términos: FinApp se reserva el derecho de modificar estos términos y condiciones en cualquier momento. Cualquier cambio entrará en vigor inmediatamente después de su publicación en nuestra aplicación o sitio web.
+        8. Aceptación de los Términos: Al utilizar FinApp, confirmas que has leído, entendido y aceptado estos términos y condiciones.
+                ]]>
+    </string>
 </resources>
