@@ -1,5 +1,6 @@
 package com.example.proyectofinapp
 
+import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -88,7 +89,8 @@ class MainPageActivity : AppCompatActivity() {
                     true
                 }
                 R.id.expense -> {
-                    // Handle dashboard action
+                    val intent = Intent(this, AddExpenseActivity::class.java)
+                    startActivity(intent)
                     true
                 }
                 R.id.search -> {
@@ -101,7 +103,7 @@ class MainPageActivity : AppCompatActivity() {
                 }
                 R.id.homeNav -> {
                     // Handle notifications action
-                    true
+                    false
                 }
                 else -> false
             }

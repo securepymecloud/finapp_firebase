@@ -69,6 +69,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
         app:cardBackgroundColor="@color/md_green_100"
         android:layout_height="wrap_content"
         android:layout_margin="8dp">
